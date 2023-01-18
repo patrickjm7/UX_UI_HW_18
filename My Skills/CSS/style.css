@@ -132,3 +132,14 @@ footer {
     background: #525252;
     align-self: stretch;
 }
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+    .skillCards {
+        flex-direction: column;
+    }
+
+    .skill {
+        flex-direction: row;
+    }
+}
